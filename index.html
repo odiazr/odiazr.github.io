@@ -15,8 +15,16 @@
         }
 
         h1 { 
-            color: #000080;
-            border-bottom: 2px solid #000080;
+            color: #000080; /* Changed to a dark green, change to whatever Hex Code you like! */
+            font-size: 42px; /* Makes your name bigger */
+            border-bottom: 3px solid #000080; /* Makes the line thicker and matches the color */
+            padding-bottom: 5px;
+        }
+
+        h2 {
+            color: #000080; /* Navy blue for the section titles */
+            font-size: 28px; /* Size of the section titles */
+            border-bottom: 1px solid #000080; /* Adds a nice thin line under 'Working Papers' too! */
             padding-bottom: 5px;
         }
 
@@ -31,6 +39,17 @@
         /* NEW: This makes sure the image doesn't shrink weirdly */
         .intro-image {
             flex-shrink: 0; 
+        }
+
+        .paper-row {
+            display: flex;
+            gap: 25px; /* Space between paper image and abstract */
+            margin-bottom: 30px; /* Space between multiple papers */
+            align-items: flex-start;
+        }
+
+        .paper-image {
+            flex-shrink: 0;
         }
 
         footer { margin-top: 50px; font-size: 0.8em; color: #666; }
@@ -54,16 +73,36 @@
                  </p>
                 <p> I have been TA of Principles of Economics, Microeconomics and Urban Economics at the undergreaduate level at UC3M since 2022 and member of the organizing committee of the Junior Migration Seminar since 2024. 
                 </p>
-                <p>  
-                </p>
+                <p style="margin-top: 20px; font-weight: bold;">
+                <a href="https://x.com/jovenorla" target="_blank">Twitter</a>
+                <a href="https://bsky.app/profile/orlandr.bsky.social" target = "_blank">Bluesky</a> | 
+                <a href="https://www.linkedin.com/in/orlando-angel-diaz-rivera-549b141a7/" target="_blank">LinkedIn</a> |
+                <a href="cv/resume.pdf" target="_blank">CV</a>. You can write to me at odiaz@eco.uc3m.es
+            </p>
             </section>
         </div>
 
     </div> 
-    <hr style="margin-top: 40px; border: 0; border-top: 1px solid #ccc;"> <section id="working-papers">
+    <hr style="margin-top: 40px; border: 0; border-top: 1px solid #ccc;"> 
+    
+    <section id="working-papers">
         <h2>Working Papers</h2>
-        <p>This section is ready for your future work!</p>
-    </section>
+        
+        <div class="paper-row">
+            <div class="paper-image">
+                <img src="profile.jpeg" alt="Paper 1 Thumbnail" style="width: 160px; border: 1px solid #ccc;">
+            </div>
+            <div class="paper-text">
+                <h3 style="margin-top: 0; color: #333;">Title of Your Amazing Paper</h3>
+                <p style="font-size: 0.9em;"><strong>Abstract:</strong> This paper explores the fascinating relationship between migration, labor, and network economics. Using novel datasets, we show that...</p>
+                <p>
+                    <a href="link-to-paper.pdf" target="_blank">[PDF]</a> 
+                    <a href="link-to-code" target="_blank">[Code]</a>
+                </p>
+            </div>
+        </div>
+
+        </section>
 
     <footer>
         <p>&copy; 2026 Orlando A. Diaz Rivera. Built with Feid in the background.</p>
