@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.2)  2 APR 2026 11:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.2)  2 APR 2026 12:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/orlan/Documents/PhD/webpage/cv/resume.tex
-(c:/Users/orlan/Documents/PhD/webpage/cv/resume.tex
+**c:/Users/orlan/Documents/PhD/webpage/cv/DiazOrlando_CV.tex
+(c:/Users/orlan/Documents/PhD/webpage/cv/DiazOrlando_CV.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (resume.cls
@@ -164,7 +164,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 ) (C:\Users\orlan\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count298
-) (resume.aux)
+) (DiazOrlando_CV.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
@@ -245,15 +245,15 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 8249 strings out of 467867
- 129547 string characters out of 5418335
- 551149 words of memory out of 5000000
+ 8250 strings out of 467867
+ 129657 string characters out of 5418335
+ 551173 words of memory out of 5000000
  37087 multiletter control sequences out of 15000+600000
  631421 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,6n,79p,615b,438s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,6n,79p,623b,438s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/orlan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/orlan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/orlan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/orlan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/orlan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (1 page, 86131 bytes).
+Output written on DiazOrlando_CV.pdf (1 page, 86131 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
