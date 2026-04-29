@@ -1,49 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orlando A. Diaz Rivera</title>
+    <meta name="description"
+        content="Personal academic website of Orlando A. Diaz Rivera, PhD candidate in Economics at Universidad Carlos III de Madrid (UC3M). Research interests: migration, labor, and network economics.">
+    <meta name="author" content="Orlando A. Diaz Rivera">
     <style>
-        body { 
-            font-family: Georgia, "Times New Roman", Times, serif; 
-            line-height: 1.6; 
-            max-width: 800px; 
-            margin: 40px auto; 
-            padding: 0 20px; 
+        body {
+            font-family: Georgia, "Times New Roman", Times, serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
             color: #000000;
         }
 
-        h1 { 
-            color: #000080; /* Changed to a dark green, change to whatever Hex Code you like! */
-            font-size: 32px; /* Makes your name bigger */
-            border-bottom: 3px solid #000080; /* Makes the line thicker and matches the color */
+        h1 {
+            color: #000080;
+            /* Changed to a dark green, change to whatever Hex Code you like! */
+            font-size: 32px;
+            /* Makes your name bigger */
+            border-bottom: 3px solid #000080;
+            /* Makes the line thicker and matches the color */
             padding-bottom: 5px;
         }
 
         h2 {
-            color: #000080; /* Navy blue for the section titles */
-            font-size: 24px; /* Size of the section titles */
+            color: #000080;
+            /* Navy blue for the section titles */
+            font-size: 24px;
+            /* Size of the section titles */
             padding-bottom: 5px;
         }
 
         /* NEW: The invisible container that puts things side-by-side */
         .intro-row {
             display: flex;
-            gap: 40px; /* Space between the picture and the text */
-            align-items: flex-start; /* Keeps both sides aligned at the top */
+            gap: 40px;
+            /* Space between the picture and the text */
+            align-items: flex-start;
+            /* Keeps both sides aligned at the top */
             margin-top: 20px;
         }
 
         /* NEW: This makes sure the image doesn't shrink weirdly */
         .intro-image {
-            flex-shrink: 0; 
+            flex-shrink: 0;
         }
 
         .paper-row {
             display: flex;
-            gap: 25px; /* Space between paper image and abstract */
-            margin-bottom: 30px; /* Space between multiple papers */
+            gap: 25px;
+            /* Space between paper image and abstract */
+            margin-bottom: 30px;
+            /* Space between multiple papers */
             align-items: flex-start;
         }
 
@@ -52,13 +65,19 @@
         }
 
         @media (max-width: 700px) {
-            .intro-row, .paper-row {
-                flex-direction: column; /* This forces the text to drop below the picture on small screens */
-                align-items: center; /* This centers the picture on mobile */
+
+            .intro-row,
+            .paper-row {
+                flex-direction: column;
+                /* This forces the text to drop below the picture on small screens */
+                align-items: center;
+                /* This centers the picture on mobile */
             }
-            
-            .intro-text, .paper-text {
-                margin-top: 20px; /* Adds breathing room between the picture and the text when stacked */
+
+            .intro-text,
+            .paper-text {
+                margin-top: 20px;
+                /* Adds breathing room between the picture and the text when stacked */
             }
         }
 
@@ -69,9 +88,14 @@
             background-repeat: repeat-x;
         }
 
-        footer { margin-top: 50px; font-size: 0.8em; color: #666; }
+        footer {
+            margin-top: 50px;
+            font-size: 0.8em;
+            color: #666;
+        }
     </style>
 </head>
+
 <body>
 
     <header>
@@ -79,51 +103,77 @@
     </header>
 
     <div class="intro-row">
-        
+
         <div class="intro-image">
             <img src="images/profile_picture.jpg" alt="Orlando A. Diaz Rivera" style="width: 300px;">
         </div>
 
         <div class="intro-text">
             <section id="about">
-                <p style="font-size: 1em; text-align: justify;"> I'm a PhD student in Economics at Universidad Carlos III de Madrid under the supervision of <a href="https://sites.google.com/site/jfmecon/" target="_blank" style="color: #000080; font-weight: normal;">Jesús Fernández-Huertas Moraga</a>. My research interests are migration, labor, and network economics. </p>
-                <p style="font-size: 1em; text-align: justify;"> Since 2023, I have been a Teaching Assistant at UC3M undergraduate courses in <a href="letter_recognition.pdf" target="_blank" style="color: #000080; font-weight: normal;">Principles of Economics</a>, Microeconomics, and Urban Economics. I am also a member of the organizing committee of <a href="https://sites.google.com/view/the-economics-of-migration/home" target="_blank" style="color: #000080; font-weight: normal;">The Economics of Migration Junior Seminar</a> since 2024. 
-                    
+                <p style="font-size: 1em; text-align: justify;"> I'm a PhD student in Economics at Universidad Carlos
+                    III de Madrid under the supervision of <a href="https://sites.google.com/site/jfmecon/"
+                        target="_blank" style="color: #000080; font-weight: normal;">Jesús Fernández-Huertas Moraga</a>.
+                    My research interests are migration, labor, and network economics. </p>
+                <p style="font-size: 1em; text-align: justify;"> Since 2023, I have been a Teaching Assistant at UC3M
+                    undergraduate courses in <a href="letter_recognition.pdf" target="_blank"
+                        style="color: #000080; font-weight: normal;">Principles of Economics</a>, Microeconomics, and
+                    Urban Economics. I am also a member of the organizing committee of <a
+                        href="https://sites.google.com/view/the-economics-of-migration/home" target="_blank"
+                        style="color: #000080; font-weight: normal;">The Economics of Migration Junior Seminar</a> since
+                    2024.
+
                 </p>
                 <p style="font-size: 1em; margin-top: 20px;">
-                <a href="https://x.com/jovenorla" target="_blank" style="color: #000080; font-weight: normal;">Twitter</a> |
-                <a href="https://bsky.app/profile/orlandr.bsky.social" target = "_blank" style="color: #000080; font-weight: normal;">Bluesky</a> | 
-                <a href="https://www.linkedin.com/in/orlando-angel-diaz-rivera-549b141a7/" target="_blank" style="color: #000080; font-weight: normal;">LinkedIn</a> |
-                <a href="cv/DiazOrlando_CV.pdf" target="_blank" style="color: #000080; font-weight: normal;">CV</a> | odiaz[at]eco.uc3m.es
-            </p>
+                    <a href="https://x.com/jovenorla" target="_blank"
+                        style="color: #000080; font-weight: normal;">Twitter</a> |
+                    <a href="https://bsky.app/profile/orlandr.bsky.social" target="_blank"
+                        style="color: #000080; font-weight: normal;">Bluesky</a> |
+                    <a href="https://www.linkedin.com/in/orlando-angel-diaz-rivera-549b141a7/" target="_blank"
+                        style="color: #000080; font-weight: normal;">LinkedIn</a> |
+                    <a href="cv/DiazOrlando_CV.pdf" target="_blank" style="color: #000080; font-weight: normal;">CV</a>
+                    | odiaz[at]eco.uc3m.es
+                </p>
             </section>
         </div>
 
-    </div> 
+    </div>
     <div class="wavy-divider"></div>
-    
+
     <section id="working-papers">
         <h2>Research</h2>
-        
-        <h3 style="margin-top: 0; margin-bottom: 20px; color: #000000; font-size: 17px;"> Instrumental Variables and Omitted Migrant Flows: Immigration and Emigration in Peru </h3>
+
+        <h3 style="margin-top: 0; margin-bottom: 20px; color: #000000; font-size: 17px;"> Instrumental Variables and
+            Omitted Migrant Flows: Immigration and Emigration in Peru </h3>
         <div class="paper-row">
             <div class="paper-image">
                 <img src="images/paper_1.png" alt="Paper 1 Thumbnail" style="width: 340px; border: 1px solid #ccc;">
             </div>
             <div class="paper-text">
-                <p style="font-size: 0.9em; text-align: justify; margin-top: 0;"><strong>Abstract:</strong> Instrumental variables are often used to identify the causal effect of immigration on labor market outcomes of natives. In this paper, I investigate the sensitivity of 2SLS estimators in the (common) case where a simultaneous shock occurs to the unit of interest and we do not explicitly account for it. For this purpose, I estimate the effects of both the Venezuelan immigration shock and the Peruvian emigration during the last decades on the labor market outcomes of Peruvian native stayers. Using shift-share instruments, I document positive effects of both immigration and emigration on employment rates, household income, and household expenditure (with emigration effects being about eight times larger). Reassuringly for the literature, even in a context of instruments correlated with the omitted flow the point estimates are shown to be robust to the inclusion of the omitted variable. </p>
+                <p style="font-size: 0.9em; text-align: justify; margin-top: 0;"><strong>Abstract:</strong> Instrumental
+                    variables are often used to identify the causal effect of immigration on labor market outcomes of
+                    natives. In this paper, I investigate the sensitivity of 2SLS estimators in the (common) case where
+                    a simultaneous shock occurs to the unit of interest and we do not explicitly account for it. For
+                    this purpose, I estimate the effects of both the Venezuelan immigration shock and the Peruvian
+                    emigration during the last decades on the labor market outcomes of Peruvian native stayers. Using
+                    shift-share instruments, I document positive effects of both immigration and emigration on
+                    employment rates, household income, and household expenditure (with emigration effects being about
+                    eight times larger). Reassuringly for the literature, even in a context of instruments correlated
+                    with the omitted flow the point estimates are shown to be robust to the inclusion of the omitted
+                    variable. </p>
                 <p>
-                <a href="https://e-archivo.uc3m.es/entities/publication/660823f9-436f-4b0a-acc9-afe987fdb6e1" target="_blank" style="color: #000080; font-weight: normal;">Working Paper</a> 
+                    <a href="https://e-archivo.uc3m.es/entities/publication/660823f9-436f-4b0a-acc9-afe987fdb6e1"
+                        target="_blank" style="color: #000080; font-weight: normal;">Working Paper</a>
                 </p>
             </div>
         </div>
 
-        </section>
+    </section>
 
     <footer>
         <p>&copy; 2026 Orlando A. Diaz Rivera. All rights reserved.</p>
         <p style="margin-top: -10px;">Last updated: 1st April 2026</p>
-    </footer>       
+    </footer>
 
 </body>
+
 </html>
